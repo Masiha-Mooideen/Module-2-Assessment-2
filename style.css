@@ -1,0 +1,773 @@
+ body{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    background-image: url(images/inside.jpg);
+}
+
+/*===========HEADER===========*/
+#header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 80px;
+    background-color:lightblue;
+    background-repeat: repeat-x;
+}
+#header img{
+    display: block;
+    margin: auto;
+    height: 70%;
+    padding-top: 15px;
+}
+
+/*===========TOP-TABS==========*/
+#tabs-top{
+    position: fixed;
+    top: 80px;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: lightblue;
+}
+#tabs-top a{
+    float: left;
+    display: block;
+    width: 25%;
+    height: 35px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 12px;
+}
+#tabs-top a:hover{
+    color:midnightblue;
+}
+/*==============MAIN-HOME=============*/
+#main {
+    padding-top: 120px;
+    background-size: cover;    
+    margin: auto;
+    background-attachment: scroll;
+    width: 100%;
+}
+
+.main-home img{
+    padding: 10px;
+    border: 5px solid lightblue;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+
+/*===========BOTTOM-TABS============*/
+#tabs-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color:  lightblue;;
+}
+#tabs-bottom a{
+    float: left;
+    display: block;
+    width: 50%;
+    height: 35px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+}
+#tabs-bottom a:hover{
+    color:midnightblue;
+}
+
+/*===========ABOUT PAGE===========*/
+.about{
+    
+    background-size: cover;
+}
+.about h2{
+    padding-top: 110px;
+    font-family:helvetica sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    border: 5px solid lightblue ;
+    color: black;
+    background-color: rgb(255,255,255,.8);
+    text-decoration: underline;
+    }
+
+.about p{
+    padding-top:10px;
+    text-align: center;
+    color: white;
+    border: 3px solid lightblue ;
+    font-family: sans-serif;
+    font-size: 25px;
+     background-color: rgba(0,0,0,0.2);
+}
+
+.about img{
+    padding: 50px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/*============MAP============*/
+#map{
+    margin-top: 120px;
+    background-size: cover;
+}
+
+/*===========STORES PAGE===========*/
+
+#stores-home{
+    background-size: cover;
+    background-color: rgba(255,255,255,.8);
+   }
+
+.stores-home-logo-01 h4{
+    font-family: sans-serif;
+    color: white;
+    margin-top: 80px;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.stores-home-logo-02 h4{
+    font-family: sans-serif;
+    color: white;
+    margin-top: -1px;
+    padding-top: 15px;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.stores-home-logo-03 h4{
+    font-family: sans-serif;
+    color: white;
+    margin-top: -1px;
+    padding-top: 15px;
+    text-decoration: underline;
+    font-size: 20px;
+}
+/*====STORE DIVISIONS====*/
+.stores-home-logo-01{
+    float: left;
+    margin-top: 115px;
+    margin-left: 50px;
+    padding-bottom: 50px;
+    
+}
+.stores-home-logo-02{
+    float:right;
+    display:inline;
+    margin-left: 400px;
+    margin-left: -50px;
+    margin-top: -840px;
+    padding-bottom: 100px;
+}
+.stores-home-logo-03{
+    float:right;
+    display:inline;
+    margin-left: 1000px;
+    margin-top: -840px;
+    padding-bottom: 100px; 
+}
+
+/*==========COTTON:ON============*/
+.cotton-on-info img{
+    float: left;
+    margin-top: 90px;
+    border: 5px solid lightblue;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+.cotton-on-info p{
+    margin: 150px;
+    font-size: 25px;
+    color: white;
+    float: left;
+    font-family: sans-serif;
+    background-color: rgba(0,0,0,0.1);
+    margin-left: -0.01px;
+    text-align: left;
+    padding-right: 550px;
+    padding-left: 10px;
+}
+.cotton-on-info h4{
+    font-size: 50px;
+    color: white;
+    margin-top: 150px;
+    font-family: sans-serif;
+    text-align:left;
+}
+
+.cotton-on-01 {
+    float: right;
+     display:inline;
+    margin-left: 1000px;
+    margin-top: -700px;
+}
+
+/*==========EDGARS============*/
+.edgars-info img{
+    float: left;
+    margin-top: 90px;
+    border: 5px solid lightblue;
+    margin-left:20px;
+    margin-top: -10px;
+}
+.edgars-info p{
+    margin: 150px;
+    font-size: 25px;
+    color: white;
+    float: left;
+    font-family: sans-serif;
+    background-color: rgba(0,0,0,0.1);
+    margin-left: -0.01px;
+    text-align: left;
+    padding-right: 550px;
+    padding-left: 10px;
+}
+.edgars-info h4{
+    font-size: 50px;
+    color: white;
+    margin-top: 150px;
+    font-family: sans-serif;
+    text-align:left;
+}
+
+.edgars-01 {
+    float: right;
+     display:inline;
+    margin-left: 1000px;
+    margin-top: -700px;
+    margin-right: 10px;
+}
+
+/*===========H&M============*/
+.h-m-info img{
+    float: left;
+    margin-top: 90px;
+    border: 5px solid lightblue;
+    margin-left:20px;
+    margin-top: -10px;
+}
+.h-m-info p{
+    margin: 150px;
+    font-size: 25px;
+    color: white;
+    float: left;
+    font-family: sans-serif;
+    background-color: rgba(0,0,0,0.1);
+    margin-left: -0.01px;
+    text-align: left;
+    padding-right: 550px;
+    padding-left: 10px;
+}
+.h-m-info h4{
+    font-size: 50px;
+    color: white;
+    margin-top: 150px;
+    font-family: sans-serif;
+    text-align:left;
+}
+.h-m-01 {
+    float: right;
+     display:inline;
+    margin-left: 1000px;
+    margin-top: -750px;
+    margin-right: 10px;
+}
+
+/*===========MRP============*/
+.mrp-info img{
+    float: left;
+    margin-top: 90px;
+    border: 5px solid lightblue;
+    margin-left:20px;
+    margin-top: -10px;
+}
+.mrp-info p{
+    margin: 150px;
+    font-size: 25px;
+    color: white;
+    float: left;
+    font-family: sans-serif;
+    background-color: rgba(0,0,0,0.1);
+    margin-left: -0.01px;
+    text-align: left;
+    padding-right: 550px;
+    padding-left: 10px;
+}
+.mrp-info h4{
+    font-size: 50px;
+    color: white;
+    margin-top: 150px;
+    font-family: sans-serif;
+    text-align:left;
+}
+.mrp-01 {
+    float: right;
+     display:inline;
+    margin-left: 1000px;
+    margin-top: -750px;
+    margin-right: 10px;
+}
+
+/*===========CHECKERS============*/
+.checkers-info img{
+    float: left;
+    margin-top: 90px;
+    border: 5px solid lightblue;
+    margin-left:20px;
+    margin-top: -10px;
+}
+.checkers-info p{
+    margin: 150px;
+    font-size: 25px;
+    color: white;
+    float: left;
+    font-family: sans-serif;
+    background-color: rgba(0,0,0,0.1);
+    margin-left: -0.01px;
+    text-align: left;
+    padding-right: 550px;
+    padding-left: 10px;
+    padding-top: -3px;
+}
+.checkers-info h4{
+    font-size: 50px;
+    color: white;
+    margin-top: 150px;
+    font-family: sans-serif;
+    text-align:left;
+}
+.checkers-01 {
+    float: right;
+     display:inline;
+    margin-left: 1000px;
+    margin-top: -900px;
+    margin-right: 10px;
+}
+
+
+/*===========GAME============*/
+.game-info img{
+    float: left;
+    margin-top: 90px;
+    border: 5px solid lightblue;
+    margin-left:20px;
+    margin-top: -10px;
+}
+.game-info p{
+    margin: 150px;
+    font-size: 25px;
+    color: white;
+    float: left;
+    font-family: sans-serif;
+    background-color: rgba(0,0,0,0.1);
+    margin-left: -0.01px;
+    text-align: left;
+    padding-right: 550px;
+    padding-left: 10px;
+    padding-top: -3px;
+}
+
+.game-info h4{
+    font-size: 50px;
+    color: white;
+    margin-top: 150px;
+    font-family: sans-serif;
+    text-align:left;
+}
+.game-01 {
+    float: right;
+     display:inline;
+    margin-left: 1000px;
+    margin-top: -1000px;
+    margin-right: 10px;
+}
+
+/*===========WOOLWORTHS============*/
+.woolworths-info img{
+    float: left;
+    margin-top: 90px;
+    border: 5px solid lightblue;
+    margin-left:20px;
+    margin-top: -10px;
+}
+.woolworths-info p{
+    margin: 150px;
+    font-size: 25px;
+    color: white;
+    float: left;
+    font-family: sans-serif;
+    background-color: rgba(0,0,0,0.1);
+    margin-left: -0.01px;
+    text-align: left;
+    padding-right: 550px;
+    padding-left: 10px;
+    padding-top: -3px;
+}
+.woolworths-info h4{
+    font-size: 50px;
+    color: white;
+    margin-top: 150px;
+    font-family: sans-serif;
+    text-align:left;
+}
+.woolworths-01 {
+    float: right;
+     display:inline;
+    margin-left: 1000px;
+    margin-top: -1000px;
+    margin-right: 10px;
+}
+
+/*===========MUGG & BEAN============*/
+.mugg-bean-info img{
+    float: left;
+    margin-top: 90px;
+    border: 5px solid lightblue;
+    margin-left:20px;
+    margin-top: -10px;
+}
+.mugg-bean-info p{
+    margin: 150px;
+    font-size: 25px;
+    color: white;
+    float: left;
+    font-family: sans-serif;
+    background-color: rgba(0,0,0,0.1);
+    margin-left: -0.01px;
+    text-align: left;
+    padding-right: 550px;
+    padding-left: 10px;
+    padding-top: -3px;
+}
+.mugg-bean-info h4{
+    font-size: 50px;
+    color: white;
+    margin-top: 150px;
+    font-family: sans-serif;
+    text-align:left;
+}
+.mugg-bean-01 {
+    float: right;
+     display:inline;
+    margin-left: 1000px;
+    margin-top: -750px;
+    margin-right: 10px;
+}
+
+/*===========KRISPY KREME============*/
+.kk-info img{
+    float: left;
+    margin-top: 90px;
+    border: 5px solid lightblue;
+    margin-left:20px;
+    margin-top: -10px;
+}
+.kk-info p{
+    margin: 150px;
+    font-size: 25px;
+    color: white;
+    float: left;
+    font-family: sans-serif;
+    background-color: rgba(0,0,0,0.1);
+    margin-left: -0.01px;
+    text-align: left;
+    padding-right: 550px;
+    padding-left: 10px;
+    padding-top: -3px;
+}
+.kk-info h4{
+    font-size: 50px;
+    color: white;
+    margin-top: 150px;
+    font-family: sans-serif;
+    text-align:left;
+}
+.kk-01 {
+    float: right;
+     display:inline;
+    margin-left: 1000px;
+    margin-top: -750px;
+    margin-right: 10px;
+}
+/*===========FORM============*/
+.input{
+    width: 100%;
+    height: 25px;
+    margin: 12px 0;
+}
+
+.textarea{
+    width: 100%;
+    height: 65px;
+    margin: 12px 0;
+    border: 1px solid lightblue;
+}
+
+.button{
+    display: block;
+    width: 100%;
+    background-color: lightblue;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 8px 0;
+}
+
+/*===========INFO BOX============*/
+a.info-box{
+    background: rgba(255,255,255,.8);
+    width: 100%;
+    height: 150px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    padding: 1px;
+    align-content: center;
+}
+
+.info-box h3{
+    padding: 0;
+    margin-bottom: 0;
+    width: 90%;
+    color: white;     
+}
+
+.info-box p{
+    margin: 0;
+    padding: 0;
+    width:100%;
+    color:black;
+}
+.info-box img{
+    height: 70px;
+    margin: 10px;
+    float: left;
+}
+.info-box img.right{
+    float: right;
+    margin-top: 25px;
+    height: 40px;
+}
+/*===========INFO BOX=========*/
+#info-box-full{
+   background: rgba(255,255,255,.8);
+    background-size: cover; 
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+}
+
+#info-box-full h3{
+    text-align: center;
+} 
+
+#info-box-full img{
+    width: 100%;
+}
+
+#info-icon-01 {
+    display: inline-block;
+    float: left;
+}
+.info-icon-02 {
+    display: inline-block;
+    margin-left: 350px;
+}
+.info-icon-03 {
+    display: inline-block;
+    margin-left: 100px;    
+}
+.info-icon-04 {
+    display: inline-block;
+    float: right;
+    margin-bottom: 100px;
+}
+
+/*=============MOVIES==============*/
+#movies-home{
+    background:rgba(255,255,255,.8);
+}
+#movies-home h5{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    color: black;
+    margin-top: 150px;
+}
+#movies-home img{
+     border: 5px solid lightblue;
+}
+
+/*=====MOVIE PAGES=====*/
+#movies-home-01{
+    float: left;
+    display: inline-block;
+    margin-top: 100px;
+}
+.movies-home-01 p{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 90px;
+    float: right;
+    margin-right: 50px;
+    border: 5px solid lightblue;
+}
+
+#movies-home-02{
+    float: left;
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 100px;
+}
+.movies-home-02 p{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 50px;
+    float: right;
+    margin-right: 20px;
+    border: 5px solid lightblue;
+}
+
+
+#movies-home-03{
+    float: left;
+    display: inline-block;
+    padding-right: 20px;
+    margin-top: 400px;
+    margin-left: -620px;
+ }
+.movies-home-03 p{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 70px;
+    float: right;
+    margin-right: 20px;
+    border: 5px solid lightblue;
+}
+
+#movies-home-04{
+    float: left;
+    display: inline-block;
+    margin-top: 400px;
+   }
+.movies-home-04 p{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 90px;
+    float: right;
+    margin-right: 20px;
+    border: 5px solid lightblue;
+}
+
+/*==========AVATAR=========*/
+#avatar-home{
+     background:rgba(255,255,255,.8);
+}
+#avatar-home h5{
+    color: black;
+    margin-top: 150px;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+}
+#avatar-home img{
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.avatar-home p{
+    color: black;
+    font-family: sans-serif;
+    float: left;
+}
+
+/*==========AVENGERS ENDGAME=========*/
+#avengers-home{
+     background:rgba(255,255,255,.8);
+}
+#avengers-home h5{
+    color: black;
+    margin-top: 150px;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+}
+#avengers-home img{
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.avengers-home p{
+    color: black;
+    font-family: sans-serif;
+    float: left;
+}
+
+/*==========ELEMENTAL=========*/
+#elemental-home{
+     background:rgba(255,255,255,.8);
+}
+#elemental-home h5{
+    color: black;
+    margin-top: 150px;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+}
+#elemental-home img{
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.elemental-home p{
+    color: black;
+    font-family: sans-serif;
+    float: left;
+}
+
+/*==========ELEMENTAL=========*/
+#ride-home{
+     background:rgba(255,255,255,.8);
+}
+#ride-home h5{
+    color: black;
+    margin-top: 150px;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+}
+#ride-home img{
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.ride-home p{
+    color: black;
+    font-family: sans-serif;
+    float: left;
+}
+
